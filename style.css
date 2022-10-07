@@ -1,0 +1,133 @@
+:root{
+    font-size: 38px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #contact{
+    font-size: 30px;
+    /* text-decoration: underline; */
+    border-bottom: 4px solid black;
+    margin: 10px;
+    margin-top: 0.5rem;
+  }
+  .prim_tex{
+    font-size: 20px;
+    text-align:justify;
+    align-items: center;
+    margin: 8px;
+    padding: 15px 25px;
+  }
+  .objetivo{
+    font-size: 20px;
+    text-align:justify;
+    align-items: center;
+    margin: 8px;
+    padding: 0 20px;
+  }
+  h3{
+    font-size: 20px;
+    margin-top: 0.5rem;
+    padding: 15px 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+  }
+  .seccion{
+    font-size: 16px;
+    text-align:start;
+    align-items:flex-end;
+    margin: 8px;
+  }
+  li{
+    font-size: 20px;
+  }
+  .contacto{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: .5rem; */
+  }
+
+  body{
+    height: 100%;
+  }
+  .titulo{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:start;
+    /* margin-left: .5rem; */
+  }
+  body, html {
+    margin: 0;
+    padding: 0;   
+    
+  }
+  nav{
+    background-image: url(./assets/Fondo.jpg);
+    flex-direction:column;
+    position:static;
+    min-height: 500px;
+  }
+  
+  main{
+    background-color:rgb(193, 210, 174);
+    
+  }
+  .Perfil {
+    display: flex;
+    flex-direction: column;  
+    height: 100vh;  
+  }
+  .box {  
+    width: 100%;
+
+  }
+  nav, aside {
+    flex: 1;
+  }
+  
+  main {  
+    flex: 3;
+  
+  }
+  label{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    margin-top: 5px;
+  }
+  .image-profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 300px;
+    border:transparent;
+    text-align: center;
+    margin: 0 8px;
+  }
+  .name{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  div img{
+    width: 30px;
+    height: 30px;
+  }
+  footer{
+    columns: 3;
+    background-color: rgb(233, 233, 155);
+    /* column-rule:6px dashed gray; */
+  }
+  footer h3 {
+    font-size: 20px;
+    margin-top: 0.5rem;
+    margin: 2px 2px;
+    padding: 0px 0px 0px 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+  }
